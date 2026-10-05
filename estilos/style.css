@@ -8,4 +8,53 @@ preto-avermelhado: #8B2222
 
 */
 
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
+body,html{
+
+    background-color:#E80000;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh ;
+    width: 100vw;
+}
+
+section#login{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+    background-color: #FFF7F6;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px  #481212ac;
+}
+
+section#login > div#kong {
+
+    display: block;
+    background: #8B2222 url("../imagens/gorillaz-3-1024x355.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 200px;
+}
+
+section#login > div#formulario{
+
+    padding: 10px;
+    display: block;
+}
