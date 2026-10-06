@@ -9,23 +9,28 @@ preto-avermelhado: #8B2222
 */
 
 *{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
+
 
 body,html{
 
     background-color:#E80000;
     height: 100vh;
     width: 100vw;
+    color: #ad3410;
+    text-align: center;
 }
 
 main{
     position: relative;
     height: 100vh ;
     width: 100vw;
+   
 }
 
 section#login{
@@ -40,16 +45,16 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px  #481212ac;
+    box-shadow: 3px 3px 3px #ba0f0fd4;
 }
 
 section#login > div#kong {
 
     display: block;
-    background: #8B2222 url("../imagens/gorillaz-3-1024x355.jpg");
+    background: #8B2222 url("../imagens/2654be2bfb7f25404233e917c06fe9b1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: right bottom;
     height: 200px;
 }
 
