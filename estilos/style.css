@@ -46,6 +46,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px #ba0f0fd4;
+
+    transition: .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#kong {
